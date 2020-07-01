@@ -62,10 +62,6 @@ public class GamePlay : MonoBehaviour
         this.audioSource_on.clip = this.OnSound;
         this.audioSource_on.loop = false;
 
-        this.audioSource_on = this.gameObject.AddComponent<AudioSource>();
-        this.audioSource_on.clip = this.OnSound;
-        this.audioSource_on.loop = true;
-
         BlueLight = GameObject.Find("Blue Light");
         RedLight = GameObject.Find("Red Light");
         GreenLight = GameObject.Find("Green Light");
